@@ -10,7 +10,10 @@ namespace weatherForm.DTO
     {
         public double temp_c { get; set; }
         public double temp_f { get; set;}
-
+        public double wind_mph { get; set; }
+        public double wind_kph { get; set; }
+        public string wind_dir { get; set; }
+        public int cloud { get; set; }
         public condition condition { get; set; }
     }
 }
